@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rebel Tag Input Demo</title>
+    <script src="assets/js/webcomponents.min.js"></script>
+    <script src="compiled/rebel-tag-input.js"></script>
+</head>
+<body>
+    <rbl-tag-input ignore-case="true" id="tagElement"></rbl-tag-input>
+    <button id="value">Show Value</button>
+    <button id="clear">Clear</button>
+    <script>
+        document.querySelector("#value").addEventListener("click", function(){
+            var $element = document.querySelector("#tagElement");
+            alert($element.value);
+        });
+        document.querySelector("#clear").addEventListener("click", function(){
+            var $element = document.querySelector("#tagElement");
+            $element.empty();
+        });
+    </script>
+</body>
+</html>
