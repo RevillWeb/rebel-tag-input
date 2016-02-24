@@ -1,11 +1,10 @@
 {
-  "directories": {
-    "lib": "lib"
-  },
-  "main": "rebel-repeater.js",
-  "format": "es6",
-  "registry": "jspm",
+  "name": "rebel-tag-input",
+  "version": "0.0.1",
+  "description": "A tag input written as a ES2015 web component",
+  "author": "Leon Revill @revillweb",
+  "main": "compiled/rebel-repeater.js",
   "dependencies": {
-
+    "webcomponentsjs": "*"
   }
 }
