@@ -16,7 +16,7 @@ Include the web components polyfill from [webcomponents.org](http://webcomponent
 Add the custom element somewhere in your app:
 
 ````html
-<rbl-tag-input ignore-case="true" lowercase="false" uppercase="false" duplicates="false" id="tagElement"></rbl-tag-input>
+<rbl-tag-input lowercase="false" uppercase="false" duplicates="false" id="tagElement"></rbl-tag-input>
 ````
 
 API
