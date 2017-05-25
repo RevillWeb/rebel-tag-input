@@ -1,10 +1,18 @@
 {
-  "name": "rebel-tag-input",
-  "version": "0.0.1",
-  "description": "A tag input written as a ES2015 web component",
-  "author": "Leon Revill @revillweb",
-  "main": "compiled/rebel-repeater.js",
-  "dependencies": {
-    "webcomponentsjs": "*"
-  }
+    "name": "rebel-tag-input",
+    "version": "0.0.1",
+    "description": "A tag input written as a ES2015 web component",
+    "contributors": [
+        { "name": "Leon Revill", "url": "@revillweb" },
+        { "name": "Ally Ogilvie", "url": "@allyogilvie" }
+    ],
+    "scripts": {
+        "start": "npm run open",
+        "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\""
+    },
+    "dependencies": {
+        "concurrently": "*",
+        "http-server": "*",
+        "webcomponentsjs": "1.0.2"
+    }
 }
